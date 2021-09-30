@@ -17,10 +17,9 @@ class classification:
     def __init__(self,filename):
         self.filename =filename
 
-
     def prediction(self):
         # load model
-        model = load_model('ResNet50_apparal_recognition.model.h5')
+        model = load_model('model.h5')
 
         # summarize model
         #model.summary()
@@ -37,5 +36,3 @@ class classification:
 
         pred = classes[np.argmax(result)]
         return [{ "image" : pred}]
-
-
