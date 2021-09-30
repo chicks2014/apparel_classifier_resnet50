@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'apparel-recognition'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FA202E62CAB144E3B4C575403AC7B393 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_35408678D0754DB68FCF87013019A75D }}
